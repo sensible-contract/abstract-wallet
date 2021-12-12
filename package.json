@@ -1,0 +1,22 @@
+{
+  "name": "@sensible-contract/abstract-wallet",
+  "version": "1.0.0",
+  "description": "abstract wallet",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "compile": "tsc -b tsconfig.json"
+  },
+  "keywords": [],
+  "author": "sensiblecontract.org",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@sensible-contract/bsv": "0.1.1"
+  }
+}
